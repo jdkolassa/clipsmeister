@@ -1,14 +1,20 @@
 <!DOCTYPE HTML>
+<html>
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
     <title>Clipsmeister Development</title>
+
+    <link rel="stylesheet" href="{{ asset('css/app.css'); }}"/>
 </head>
 <body>
     {{-- Going to use Laravel components for the major parts of the interface --}}
     <div id="header-container" class="fluid-container">
     {{-- @yield('header') Header content will go here --}} 
+        <div class="row justify-content-center">
+            <h1>Clipsmeister Test System</h1>
+        </div>
     </div>
     <div id="belowheader" class="container">
         <div class="row">
@@ -52,3 +58,4 @@
         </footer> 
     </div>
 </body>
+</html>
